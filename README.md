@@ -6,12 +6,14 @@ Projeto de estudo, de agosto de 2024.
 
 ## Uso
 
-git clone https://github.com/Aggayu/waf-mutator.git
-cd waf-mutator
-python3 main.py
+- `git clone https://github.com/Aggayu/waf-mutator.git`
+- `cd waf-mutator`
+- `python3 main.py`
 
-Digite a string: ' OR 1=1 --
-Digite a URL: http://httpbin.org
+Entradas:
+
+- string: `' OR 1=1 --`
+- URL: `http://httpbin.org`
 
 Saída: payload original, versão em hexadecimal, URL e resposta HTTP.
 
